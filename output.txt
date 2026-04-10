@@ -1,0 +1,15 @@
+INPUT:
+
+Johns Hopkins University is a private research university in Baltimore, Maryland. 
+Founded in 1876, it was the first research university in the United States. 
+The university was named after its first benefactor, the philanthropist Johns Hopkins. 
+It consistently ranks among the top universities in the world and is known for its 
+medical school, public health programs, and research output. The university has 
+produced numerous Nobel laureates, National Academy members, and Rhodes Scholars.
+
+SUMMARY:
+• Johns Hopkins University, founded in 1876 in Baltimore, Maryland, holds the distinction of being the first research university established in the United States.
+
+• The private institution was named after philanthropist Johns Hopkins, who served as its founding benefactor.
+
+• The university is internationally recognized for its excellence, particularly in medicine and public health, and has produced many distinguished scholars including Nobel laureates and Rhodes Scholars.

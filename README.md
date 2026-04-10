@@ -1,10 +1,34 @@
-\# Homework 2 - Generative AI API Exploration
+\# Homework 2 - AI Text Summarization Workflow
 
 
 
-\## Overview
+\## Workflow
 
-This project explores the Anthropic Claude API using Python, demonstrating four key AI capabilities.
+Automated text summarization for a university communications office. Staff receive large volumes of articles, reports, and emails daily and need quick summaries to prioritize their reading.
+
+
+
+\## User
+
+Communications staff at a university who need to process large amounts of written content quickly.
+
+
+
+\## Input
+
+A block of text (article, report, or email) provided via command line or configured in the script.
+
+
+
+\## Output
+
+A structured 3-bullet-point summary printed to the console and saved to `output.txt`.
+
+
+
+\## Why This Is Valuable
+
+Manually summarizing documents is time-consuming. Automating first-pass summaries allows staff to focus their attention on the most relevant content, reducing processing time significantly.
 
 
 
@@ -16,47 +40,19 @@ This project explores the Anthropic Claude API using Python, demonstrating four 
 
 3\. Create a `.env` file with your API key: `ANTHROPIC\_API\_KEY=your-key-here`
 
+4\. Run the app: `python app.py`
+
 
 
 \## Files
 
-\- `part1\_image.py` - Multimodal image analysis using Claude
+\- `app.py` - Main application
 
-\- `part2\_summarize.py` - Text summarization using Claude
+\- `prompts.md` - Prompt iteration history
 
-\- `part3\_similarity.py` - Semantic similarity comparison using Claude
+\- `eval\_set.md` - Evaluation test cases
 
-\- `part4\_functions.py` - Function calling/tool use with Claude
+\- `report.md` - Final report
 
-
-
-\## Results
-
-
-
-\### Part 1: Multimodal Image Analysis
-
-Sent a JHU Blue Jay mascot image to Claude. The model accurately identified it as the Johns Hopkins University mascot, describing its colors, clothing, and pose in detail.
-
-
-
-\### Part 2: Text Summarization
-
-Provided a paragraph about Johns Hopkins University. Claude summarized it into 3 concise bullet points covering its founding, reputation, and academic achievements.
-
-
-
-\### Part 3: Semantic Similarity
-
-Compared sentence pairs:
-
-\- "The cat sat on the mat" vs "A feline rested on a rug" → Score: 0.95 (highly similar)
-
-\- "The cat sat on the mat" vs "The stock market crashed today" → Score: 0.0-0.05 (not similar)
-
-
-
-\### Part 4: Function Calling
-
-Defined a `get\_weather` tool. When asked about Tokyo's weather, Claude correctly identifie
+\- `requirements.txt` - Dependencies
 
