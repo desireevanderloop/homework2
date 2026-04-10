@@ -1,8 +1,8 @@
-\# Evaluation Set
+## Evaluation Set
 
 
 
-\## Case 1 - Normal Case
+## Case 1 - Normal Case
 
 \*\*Input:\*\* "Johns Hopkins University is a private research university in Baltimore, Maryland. Founded in 1876, it was the first research university in the United States. It is known for its medical school, public health programs, and research output."
 
@@ -10,7 +10,7 @@
 
 
 
-\## Case 2 - Normal Case
+## Case 2 - Normal Case
 
 \*\*Input:\*\* "The university library system contains over 4 million volumes and provides access to thousands of online journals. Students and faculty can request materials from partner institutions through interlibrary loan."
 
@@ -18,7 +18,7 @@
 
 
 
-\## Case 3 - Edge Case (Very Short Input)
+## Case 3 - Edge Case (Very Short Input)
 
 \*\*Input:\*\* "It rained today."
 
@@ -26,7 +26,7 @@
 
 
 
-\## Case 4 - Edge Case (Very Long Input)
+## Case 4 - Edge Case (Very Long Input)
 
 \*\*Input:\*\* A multi-page academic article with complex terminology.
 
@@ -34,7 +34,7 @@
 
 
 
-\## Case 5 - Likely to Fail / Require Human Review
+## Case 5 - Likely to Fail / Require Human Review
 
 \*\*Input:\*\* "The Q3 financial report showed a 12% increase in revenue, a 3% decrease in operating costs, and flagged two compliance issues in the eastern region that require immediate attention."
 
