@@ -1,8 +1,8 @@
-\# Prompt Iteration History
+## Prompt Iteration History
 
 
 
-\## Initial Version
+## Initial Version
 
 
 
@@ -14,7 +14,7 @@
 
 
 
-\## Revision 1
+## Revision 1
 
 
 
@@ -26,7 +26,7 @@
 
 
 
-\## Revision 2
+## Revision 2
 
 
 
